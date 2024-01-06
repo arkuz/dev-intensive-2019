@@ -1,4 +1,11 @@
 # Built application files
+*.apk
+*.ap_
+*.aab
+
+# Local configuration file (sdk path, etc)
+local.properties
+# Built application files
 build/
 
 # Files for the ART/Dalvik VM
@@ -13,6 +20,30 @@ build/
 # Signing files
 .signing/
 
+# Gradle files
+.gradle/
+
+# User-specific configurations
+*.iml
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Version control
+vcs.xml
+
+# lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+lint/reports/
 # User-specific configurations
 *.iml
 
